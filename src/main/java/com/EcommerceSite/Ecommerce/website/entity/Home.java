@@ -1,0 +1,59 @@
+package com.EcommerceSite.Ecommerce.website.entity;
+
+import lombok.Data;
+
+import java.util.List;
+
+@Data
+public class Home {
+
+    private List<HomeCategory> grid;
+
+    private List<HomeCategory> shopByCategories;
+
+    private List<HomeCategory> electricCategories;
+
+    private List<HomeCategory> dealCategories;
+
+    private List<DealEntity> deals;
+
+    public List<HomeCategory> getGrid() {
+        return grid;
+    }
+
+    public void setGrid(List<HomeCategory> grid) {
+        this.grid = grid;
+    }
+
+    public List<HomeCategory> getShopByCategories() {
+        return shopByCategories;
+    }
+
+    public void setShopByCategories(List<HomeCategory> shopByCategories) {
+        this.shopByCategories = shopByCategories;
+    }
+
+    public List<HomeCategory> getElectricCategories() {
+        return electricCategories;
+    }
+
+    public void setElectricCategories(List<HomeCategory> electricCategories) {
+        this.electricCategories = electricCategories;
+    }
+
+    public List<HomeCategory> getDealCategories() {
+        return dealCategories;
+    }
+
+    public void setDealCategories(List<HomeCategory> dealCategories) {
+        this.dealCategories = dealCategories;
+    }
+
+    public List<DealEntity> getDeals() {
+        return deals;
+    }
+
+    public void setDeals(List<DealEntity> deals) {
+        this.deals = deals;
+    }
+}
