@@ -17,6 +17,7 @@ Key features include:
 
 ------------------------------->
 
+
 🛍️ Product Management System for vendors to add, update, and manage inventory
 
 🛒 Shopping Cart & Order Processing for seamless purchasing flow
@@ -33,17 +34,13 @@ Key features include:
 
 ## 🛠️ Tech Stack
 
-------------------------->
-
 
 - Backend: Spring Boot
 - Frontend: React + TypeScript
 - Database: MySQL
 - Security: JWT
 
-## ⚙️ Setup Instructions
 
-### Backend
 
 
 
