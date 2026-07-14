@@ -37,7 +37,7 @@ Key features include:
 ## 🛠️ Tech Stack
 
 
-- Backend: Spring Boot
+- Backend: JAVA Spring Boot
 - Frontend: React + TypeScript
 - Database: MySQL
 - Security: JWT
